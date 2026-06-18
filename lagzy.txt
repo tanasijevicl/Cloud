@@ -68,8 +68,8 @@ cl_sniper_delay_unscope 0;
 cl_debounce_zoom 0;
 cl_crosshair_sniper_show_normal_inaccuracy 1;
 
-sensitivity 0.4;
-zoom_sensitivity_ratio 0.82;
+sensitivity 0.85;
+zoom_sensitivity_ratio 1;
 
 viewmodel_presetpos 1;
 viewmodel_fov 64;
@@ -96,18 +96,18 @@ hud_showtargetid 1;
 cl_obs_interp_enable 0;
 con_enable 1;
 
-fps_max 0;
+fps_max 200;
 rate 1000000;
 
-volume 0.15;
-snd_menumusic_volume 0.15;
+volume 1;
+snd_menumusic_volume 0.10;
 snd_menumap_volume 0.10;
 snd_headphone_eq 0;
 snd_spatialize_lerp 0;
 snd_steamaudio_enable_perspective_correction 0;
 snd_mute_losefocus 0;
 
-snd_voipvolume 1;
+snd_voipvolume 3;
 voice_modenable 1;
 voice_device_override 0;
 voice_loopback 0;
